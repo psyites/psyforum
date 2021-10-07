@@ -1,10 +1,11 @@
 <html>
-  <title>Psyites Forum</title>
-<script>
-  var height = window.innerHeight || document.body.clientHeight;
-  var width = window.innerWidth || document.body.clientWidth;
-  
-document.write("<object data=\"https://psyites.boards.net" + window.location.pathname +"\" height=\"" + height + "\" width=\"" + width + "\"> <embed src=\"https://psyites.boards.net + window.location.pathname + "\" height=\"" + height + "\" width=\"" + width + "\"> </embed> Error: Embedded data could not be displayed. </object>");
-  
-</script>
+  <script>
+    // JS Redirection System
+    // By Oliver's Tech Corner
+    // Check it out for yourself: https://git.io/JwFVI
+
+    path = window.location.pathname;
+
+    window.location.href = "https://psyites.boards.net + path;
+  </script>
 </html>
